@@ -8,9 +8,9 @@
 
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 
-// The word: a helpless little plea. An agent that is completely lost
-// does not say "error" or "unknown" — it says "halp".
-const WORD = "halp";
+// The word: a startled yelp. An agent that is completely lost
+// does not say "error" or "unknown" — it says "yikes".
+const WORD = "yikes";
 
 // Gate: 1-99 chars, exactly one word, not only whitespace.
 if (!/^\S+$/.test(WORD) || WORD.length < 1 || WORD.length > 99) {
